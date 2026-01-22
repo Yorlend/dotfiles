@@ -1,0 +1,56 @@
+/* rose-pine */
+@define-color primary-bg #191724;
+@define-color highlight-bg #21202e;
+
+window {
+	margin: 0px;
+	border: 2px solid @highlight-bg;
+	border-radius: 5px;
+	background-color: @primary-bg;
+	font-family: monospace;
+	font-size: 12px;
+}
+
+#input {
+	margin: 5px;
+	border: 1px solid @primary-bg;
+	color: #c0caf5;
+	background-color: @primary-bg;
+}
+
+#input image {
+	color: #c0caf5;
+}
+
+#inner-box {
+	margin: 5px;
+	border: none;
+	background-color: @primary-bg;
+}
+
+#outer-box {
+	margin: 5px;
+	border: none;
+	background-color: @primary-bg;
+}
+
+#scroll {
+	margin: 0px;
+	border: none;
+}
+
+#text {
+	margin: 5px;
+	border: none;
+	color: #c0caf5;
+} 
+
+#entry:selected {
+	background-color: @highlight-bg;
+	font-weight: normal;
+}
+
+#text:selected {
+	background-color: @highlight-bg;
+	font-weight: normal;
+}
