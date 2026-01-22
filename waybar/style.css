@@ -1,5 +1,7 @@
 /* @define-color primary-bg #24283b; TOKYO */
-@define-color primary-bg #191724; /* rose-pine */
+/* rose-pine */
+@define-color primary-bg #191724;
+@define-color accent #eb6f92;
 
 * {
     border: none;
@@ -27,13 +29,11 @@ window#waybar {
 
 #workspaces button.focused {
     color: @primary-bg;
-    background-color: #7aa2f7;
+    background-color: @accent;
     border-radius: 5px;
 }
 
 #workspaces button:hover {
-	background-color: #7dcfff;
-	color: @primary-bg;
 	border-radius: 5px;
 }
 
