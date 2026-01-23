@@ -236,8 +236,10 @@ bindgesture swipe:left workspace next
 		for_window [app_id="thunderbird"] floating enable
 		for_window [app_id="blueman-manager"] floating enable
 		for_window [app_id="com.chatterino.chatterino"] floating enable
+		for_window [app_id="hiddify"] floating enable
 		for_window [class="TrueConf"] floating enable
 		for_window [class="discord"] floating enable
+		for_window [class="Spotify"] floating enable
 
     # Brave, chrome, chromium
         for_window [title="Picture-in-picture"] floating enable
